@@ -7,9 +7,6 @@ Este projeto foi desenvolvido pensando na criação de uma plataforma de streami
 Aqui está a tecnologia utilizada no projeto.
 * SQL Server
 
-## Descrição do projeto 📝
-Este projeto foi desenvolvido pensando na criação de uma plataforma de streaming chamada Comuniflix, onde o principal objetivo é concentrar os dados da plataforma de forma estruturada, suportando-o com os dados necessários para seu devido funcionamento.
-
 ## Progresso 🚀
 1. Criado toda a modelagem/estrutura do banco de dados (Entidades, *Primary Key's*, *Foreign Key's*, *Auto Increment*).
 2. Inserção dos dados nas entidades do banco de dados (*Inserts* e *Updates*).
