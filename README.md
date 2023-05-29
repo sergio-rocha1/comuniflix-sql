@@ -19,10 +19,11 @@ Este projeto foi desenvolvido pensando na criação de uma plataforma de streami
 Até o momento, o projeto contém toda a parte de comandos DDL (*Data Definition Language*) e DML (*Data Manipulation Language*). Para atualizações, iremos implementar a criação de ***Triggers*** e ***Stored Procedures***, bem como inclusão de um maior número de dados para conseguirmos criar análises mais precisas e aprofundadas utilizando todo o conhecimento adquirido.
 
 ## Diagrama de entidades atual do projeto🔍
-![Diagrama de entidades](https://github.com/sergio-rocha1/comuniflix-sql/blob/master/images/diagrama-png.png)
+![Diagrama de entidades](https://github.com/sergio-rocha1/comuniflix-sql/blob/master/images/diagrama-atualizado-28_05.png)
 
 ## Autores👨‍💻
 * [**Sérgio Rocha**](https://github.com/sergio-rocha1)
 * [**Augusto Borges**](https://github.com/gusteborges) 
+* [**Marcelo Alexandre**](https://github.com/marcelinbtw) 
 
-### Versão: *1.0*
+### Versão: *1.1*
