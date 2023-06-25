@@ -1,0 +1,130 @@
+body{
+    background-image: url("../img/filmes-nf.jpg");
+    background-color: black;
+    overflow: hidden;
+}
+
+#gif {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    animation: stopAnimation 3.75s 1;
+}
+
+@keyframes stopAnimation {
+    to {
+        visibility: hidden;
+    }
+}
+
+#box{
+    opacity: 0.88;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: black;
+    position: fixed;
+    width: 15%;
+    height: 38%;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.texts {
+    height: 20px;
+    margin: 20px;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.texts2 {
+    height: 11px;
+    margin: 20px;
+    color: grey;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+.loginbox{
+    width: 240px;
+    height: 30px;
+    border-radius: 6px;
+    background-color: grey;
+    position: relative;
+    margin: -25px 20px -20px;
+}
+
+.loginbox2{
+    width: 240px;
+    height: 30px;
+    border-radius: 6px;
+    background-color: grey;
+    position: relative;
+    margin: -30px 20px -20px;
+}
+
+
+.texts3 {
+    width: 130px;
+    height: 1px;
+    margin: 25px 45px -3px;
+    color: white;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+.texts4 {
+    width: 240px;
+    height: 1px;
+    margin: 125px 27px 0px;
+    color: white;
+    font-family: Arial;
+    font-size: 11px;
+}
+
+
+.markbox{
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+    margin-top: 2px;
+    margin-left: 25px;
+    position: absolute;
+    transition: transform 1s;
+}
+
+.markbox:checked{
+    transform: rotateY(360deg);
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    outline: none;
+}
+
+.btn-login{
+    position: absolute;
+    opacity: 2;
+    width: 250px;
+    height: 30px;
+    background-color: rgb(229, 8, 8);
+    color: white;
+    margin-top: 475px;
+    margin-left: 43%;
+    border: white;
+}
+
+.btn-login:hover{
+    cursor: pointer;
+    background-color: rgb(141, 4, 4);
+}
+

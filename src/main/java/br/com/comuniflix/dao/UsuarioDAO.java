@@ -48,5 +48,4 @@ public class UsuarioDAO {
         transaction.commit();
         session.close();
     }
-
 }
