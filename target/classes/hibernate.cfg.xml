@@ -7,6 +7,6 @@
         <property name="hibernate.dialect">org.hibernate.dialect.SQLServer2012Dialect</property>
         <!-- Outras configurações -->
 
-        <mapping class="br.com.comuniflix.model.Plano" />
+        <mapping class="br.com.comuniflix.model.Usuario" />
     </session-factory>
 </hibernate-configuration>
