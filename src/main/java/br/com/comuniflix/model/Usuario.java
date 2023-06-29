@@ -5,6 +5,7 @@ import javax.persistence.*;
 import java.math.BigDecimal;
 import java.sql.Date;
 
+
 @Entity
 @Table(name = "TB_USUARIO")
 public class Usuario {
@@ -31,9 +32,6 @@ public class Usuario {
 
     @Column(name = "SENHA")
     private String Senha;
-
-    @Column(name = "QTD_COMPRADA")
-    private BigDecimal quantidadeComprada;
 
     public BigDecimal getIdUsuario() {
         return idUsuario;
@@ -63,9 +61,6 @@ public class Usuario {
         return Senha;
     }
 
-    public BigDecimal getQuantidadeComprada() {
-        return quantidadeComprada;
-    }
 
     public void setIdUsuario(BigDecimal idUsuario) {
         this.idUsuario = idUsuario;
@@ -95,7 +90,4 @@ public class Usuario {
         Senha = senha;
     }
 
-    public void setQuantidadeComprada(BigDecimal quantidadeComprada) {
-        this.quantidadeComprada = quantidadeComprada;
-    }
 }

@@ -1,0 +1,271 @@
+body {
+    position: fixed;
+    background-color: black;
+    z-index: 1;
+}
+
+#container {
+    position: fixed;
+}
+
+#insert-box {
+    border-radius: 10px;
+    background-color: #1e1e1e;
+    position: fixed;
+    width: 80%;
+    height: 120%;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    z-index: 2;
+}
+
+#header {
+    position: fixed;
+    text-align: left;
+    width: 120%;
+    height: 10%;
+    margin-top: -8px;
+    background-color: #252525;
+    z-index: 3;
+}
+
+#logo-cn {
+    width: 1%;
+    margin-left: 35px;
+    margin-top: 10px;
+    color: #ec0404;
+    font-size: 60px;
+    font-family: "Agency FB";
+}
+
+.texth1 {
+    margin-left: 20%;
+    margin-top: -95px;
+    font-weight: lighter;
+    font-family: Arial;
+    font-size: 25px;
+    color: white;
+    position: absolute;
+}
+
+.texth2 {
+    margin-left: 32%;
+    margin-top: -95px;
+    font-weight: lighter;
+    font-family: Arial;
+    font-size: 25px;
+    color: white;
+    position: absolute;
+}
+
+.texth3 {
+    margin-left: 50%;
+    margin-top: -95px;
+    font-weight: lighter;
+    font-family: Arial;
+    font-size: 25px;
+    color: white;
+    position: absolute;
+}
+
+#textin1 {
+    width: 410px;
+    position: absolute;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    z-index: 4;
+    margin-left: 250px;
+    margin-top: 150px;
+}
+
+
+
+
+#textid {
+    width: 150px;
+    position: absolute;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    z-index: 4;
+    margin-left: 250px;
+    margin-top: 190px;
+}
+.idbox{
+    text-align: left;
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    border-radius: 6px;
+    z-index: 4;
+    background-color: grey;
+    position: relative;
+    margin: -35px 250px;
+    margin-top: 220px;
+}
+
+
+
+
+#textname {
+    width: 220px;
+    position: absolute;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    z-index: 4;
+    margin-left: 597px;
+    margin-top: -60px;
+}
+.idname{
+    text-align: left;
+    position: absolute;
+    width: 450px;
+    height: 30px;
+    border-radius: 6px;
+    z-index: 4;
+    background-color: grey;
+    position: relative;
+    margin: -35px -70px;
+    margin-top: 220px;
+}
+
+
+#textcpf {
+    width: 220px;
+    position: absolute;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    z-index: 4;
+    margin-left: 250px;
+    margin-top: 60px;
+}
+.idcpf{
+    text-align: left;
+    position: absolute;
+    width: 180px;
+    height: 30px;
+    border-radius: 6px;
+    z-index: 4;
+    background-color: grey;
+    margin: -35px -739px;
+    margin-top: 348px;
+}
+
+
+#textidplano{
+    width: 220px;
+    position: absolute;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    z-index: 4;
+    margin-left: 600px;
+    margin-top: 60px;
+}
+.idplano{
+    text-align: left;
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    border-radius: 6px;
+    z-index: 4;
+    background-color: grey;
+    position: absolute;
+    margin: -35px -390px;
+    margin-top: 348px;
+}
+
+
+#textemail{
+    width: 220px;
+    position: absolute;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    z-index: 4;
+    margin-left: 1209px;
+    margin-top: -56px;
+}
+.idemail{
+    text-align: left;
+    position: absolute;
+    width: 450px;
+    height: 30px;
+    border-radius: 6px;
+    z-index: 4;
+    background-color: grey;
+    position: relative;
+    margin: -35px 210px;
+    margin-top: 220px;
+}
+
+#textsenha{
+    width: 220px;
+    position: absolute;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    z-index: 4;
+    margin-left: 250px;
+    margin-top: 190px;
+}
+.idsenha{
+    text-align: left;
+    position: absolute;
+    width: 170px;
+    height: 30px;
+    border-radius: 6px;
+    z-index: 4;
+    background-color: grey;
+    position: relative;
+    margin: -35px 250px;
+    margin-top: 220px;
+}
+
+
+#textdn{
+    width: 322px;
+    position: absolute;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    z-index: 4;
+    margin-left: 590px;
+    margin-top: -57px;
+}
+.idnasc{
+    text-align: left;
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    border-radius: 6px;
+    z-index: 4;
+    background-color: grey;
+    position: relative;
+    margin: -35px -90px;
+    margin-top: 144px;
+}
+
+#confirm-btn{
+    border-radius: 10px;
+    position: absolute;
+    background-color: rgb(229, 8, 8);
+    color: white;
+    width: 250px;
+    height: 40px;
+    z-index: 4;
+    margin: -35px 740px;
+    margin-top: 225px;
+}

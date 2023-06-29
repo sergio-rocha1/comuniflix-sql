@@ -29,7 +29,6 @@ public class UsuarioCRUDTest {
         usuario.setSenha("teste_sergio");
         usuario.setIdPlano(BigDecimal.ONE);
         usuario.setDataDeNascimento(Date.valueOf("2002-11-04"));
-        usuario.setQuantidadeComprada(BigDecimal.ZERO);
 
         salvarUsuario(usuarioDAO, usuario); // Preencha com os dados do usuário
         excluirUsuario(usuarioDAO, new BigDecimal(63));

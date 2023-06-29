@@ -1,6 +1,8 @@
 package br.com.comuniflix.main;
 
-import br.com.comuniflix.model.Plano;
+import br.com.comuniflix.controllers.Login;
+import spark.*;
+
 import br.com.comuniflix.model.Usuario;
 import br.com.comuniflix.utils.HibernateUtil;
 import org.hibernate.Session;
@@ -24,7 +26,31 @@ public class Main {
             // Acesse os outros atributos do plano conforme necessário
         }
 
-        session.getTransaction().commit();
-        session.close();
+        // Configurar a porta do servidor
+        Spark.port(1433);
+
+        // Configurar a rota para servir os arquivos estáticos
+        Spark.staticFiles.location("/public");
+
+        // Configurar a rota para a classe Login
+        Spark.post("/login", (request, response) -> {
+            // Obter os parâmetros da requisição
+            String email = request.queryParams("email");
+            String senha = request.queryParams("senha");
+
+            // Criar uma instância da classe Login
+            Login login = new Login();
+
+            // Verificar as credenciais
+            boolean loginValido = login.verificarCredenciais(email, senha);
+
+            // Retornar a resposta como JSON
+            response.type("application/json");
+            if (loginValido) {
+                return "{\"success\": true}";
+            } else {
+                return "{\"success\": false}";
+            }
+        });
     }
 }
