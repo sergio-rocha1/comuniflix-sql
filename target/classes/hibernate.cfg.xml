@@ -1,8 +1,8 @@
 <hibernate-configuration>
     <session-factory>
         <property name="hibernate.connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
-        <property name="hibernate.connection.url">jdbc:sqlserver://localhost:1433;DESKTOP-HE81TLJ\SQLEXPRESS=COMUNIFLIX</property>
-        <property name="hibernate.connection.username">acesso-banco</property>
+        <property name="hibernate.connection.url">jdbc:sqlserver://localhost:1433;DESKTOP-HE81TLJ\SQLEXPRESS=BANCO_COMUNIFLIX</property>
+        <property name="hibernate.connection.username">marcleo</property>
         <property name="hibernate.connection.password">123</property>
         <property name="hibernate.dialect">org.hibernate.dialect.SQLServer2012Dialect</property>
         <!-- Outras configurações -->
