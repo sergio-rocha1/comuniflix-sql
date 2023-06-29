@@ -1,6 +1,7 @@
 package br.com.comuniflix.dao;
 
 import br.com.comuniflix.model.Usuario;
+import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
@@ -47,6 +48,20 @@ public class UsuarioDAO {
         }
         transaction.commit();
         session.close();
+    }
+
+    public void atualizarUsuario(Usuario usuario) {
+        Transaction transaction = null;
+        try (Session session = sessionFactory.openSession()) {
+            transaction = session.beginTransaction();
+            session.update(usuario);
+            transaction.commit();
+        } catch (HibernateException e) {
+            if (transaction != null) {
+                transaction.rollback();
+            }
+            e.printStackTrace();
+        }
     }
 
 }

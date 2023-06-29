@@ -33,7 +33,7 @@ public class Usuario {
     private String Senha;
 
     @Column(name = "QTD_COMPRADA")
-    private BigDecimal quantidadeComprada;
+    private BigDecimal quantidadeComprada = BigDecimal.ZERO;
 
     public BigDecimal getIdUsuario() {
         return idUsuario;
@@ -98,4 +98,6 @@ public class Usuario {
     public void setQuantidadeComprada(BigDecimal quantidadeComprada) {
         this.quantidadeComprada = quantidadeComprada;
     }
+
+
 }

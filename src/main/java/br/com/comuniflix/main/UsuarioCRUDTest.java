@@ -2,7 +2,7 @@ package br.com.comuniflix.main;
 
 import br.com.comuniflix.dao.UsuarioDAO;
 import br.com.comuniflix.model.Usuario;
-import br.com.comuniflix.utils.HibernateUtil;
+import br.com.comuniflix.utils.HibernateUtils;
 import org.hibernate.SessionFactory;
 
 import java.math.BigDecimal;
@@ -13,7 +13,7 @@ public class UsuarioCRUDTest {
 
     public static void main(String[] args) {
         // Chamar um SessionFactory do Hibernate
-        SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
+        SessionFactory sessionFactory = HibernateUtils.getSessionFactory();
 
         // Criar uma instância do UsuarioDAO
         UsuarioDAO usuarioDAO = new UsuarioDAO(sessionFactory);
